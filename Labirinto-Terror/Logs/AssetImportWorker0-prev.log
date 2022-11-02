@@ -15,11 +15,11 @@ C:/Users/RANIERDALTONDOCOUTO/Documents/GitHub/Where-I-am/Labirinto-Terror
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59080
+62740
 Successfully changed project path to: C:/Users/RANIERDALTONDOCOUTO/Documents/GitHub/Where-I-am/Labirinto-Terror
 C:/Users/RANIERDALTONDOCOUTO/Documents/GitHub/Where-I-am/Labirinto-Terror
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,216 +35,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001329 seconds.
+Registered in 0.001867 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 28.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.534 seconds
+- Completed reload, in  0.780 seconds
 Domain Reload Profiling:
-	ReloadAssembly (534ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (413ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (608ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (198ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (148ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (229ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (28ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002057 seconds.
+Registered in 0.004145 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\RANIERDALTONDOCOUTO\Documents\GitHub\Where-I-am\Labirinto-Terror\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
+- Completed reload, in  1.267 seconds
 Domain Reload Profiling:
-	ReloadAssembly (915ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (1268ms)
+		BeginReloadAssembly (178ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (723ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1011ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (249ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (266ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (388ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.6 MB.
-System memory in use after: 68.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1944.
-Total: 2.530100 ms (FindLiveObjects: 0.110700 ms CreateObjectMapping: 0.038900 ms MarkObjects: 2.315100 ms  DeleteObjects: 0.064500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.006918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.610979 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(4f37d2c8042178d4e83a6db746f7d64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(4f37d2c8042178d4e83a6db746f7d64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a342c3f0eef5b202164bb79da13debd') in 0.133111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.753966 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonDisabled.png
-  artifactKey: Guid(40947ddc2dd4f0d499a92d0f3675c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonDisabled.png using Guid(40947ddc2dd4f0d499a92d0f3675c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e95bceccb25f4baa460c2118e68dd7') in 0.064620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeReplaceON.png
-  artifactKey: Guid(7b4b3cedf598c954cb2f38d6e2e34c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeReplaceON.png using Guid(7b4b3cedf598c954cb2f38d6e2e34c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ecee26405e8337473673fbce7ff64d') in 0.019021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineDigIn.png
-  artifactKey: Guid(22c3c381bd3cd4a40a8541103023e1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineDigIn.png using Guid(22c3c381bd3cd4a40a8541103023e1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca87c157993a8546625a4edebcd305cd') in 0.013517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeRippleOFF.png
-  artifactKey: Guid(411e6f19c19fa0546af83aeb59c2ed4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeRippleOFF.png using Guid(411e6f19c19fa0546af83aeb59c2ed4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036abd418153eef88bcb79966b784081') in 0.016832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixOFF.png
-  artifactKey: Guid(39d9575ed0465354cb02b69ea18526de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixOFF.png using Guid(39d9575ed0465354cb02b69ea18526de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090f12896d87eaadead72bce01e127b1') in 0.018652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonEnabled.png
-  artifactKey: Guid(2446ee609b613cd4e9142ccc55cb7c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonEnabled.png using Guid(2446ee609b613cd4e9142ccc55cb7c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f9323754de13ff4aafd475adfa4bb2') in 0.015989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixON.png
-  artifactKey: Guid(7c681ffb5a436684fa3e98a9b66775c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixON.png using Guid(7c681ffb5a436684fa3e98a9b66775c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcfe689414b1c097a45690e3b060f61') in 0.017127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeReplaceOFF.png
-  artifactKey: Guid(912fd71cbf4cbe140b4f240bedbc1f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeReplaceOFF.png using Guid(912fd71cbf4cbe140b4f240bedbc1f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85be95ca9205c80c3593f212d15424dd') in 0.017685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3317.884890 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(4f37d2c8042178d4e83a6db746f7d64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(4f37d2c8042178d4e83a6db746f7d64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2899814806c9fdfdc25f04a1cccab7ac') in 0.045323 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.117210 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\RANIERDALTONDOCOUTO\Documents\GitHub\Where-I-am\Labirinto-Terror\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.925 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1934ms)
-		BeginReloadAssembly (369ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (150ms)
-		EndReloadAssembly (1441ms)
-			LoadAssemblies (170ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (537ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (423ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (271ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.8 MB.
-System memory in use after: 71.9 MB.
+Unloading 1676 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 90.7 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1991.
-Total: 5.093300 ms (FindLiveObjects: 0.165200 ms CreateObjectMapping: 0.048900 ms MarkObjects: 4.640900 ms  DeleteObjects: 0.233600 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2113.
+Total: 6.602900 ms (FindLiveObjects: 0.260700 ms CreateObjectMapping: 0.106200 ms MarkObjects: 5.706700 ms  DeleteObjects: 0.528000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -257,119 +134,1078 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003632 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\RANIERDALTONDOCOUTO\Documents\GitHub\Where-I-am\Labirinto-Terror\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.424 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1424ms)
-		BeginReloadAssembly (230ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (1070ms)
-			LoadAssemblies (226ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (497ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (246ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.9 MB.
-System memory in use after: 72.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1994.
-Total: 2.626000 ms (FindLiveObjects: 0.156300 ms CreateObjectMapping: 0.063500 ms MarkObjects: 2.383900 ms  DeleteObjects: 0.021500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  path: Assets/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab
+  artifactKey: Guid(21543d2b66928224f8a9536ff3811682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab using Guid(21543d2b66928224f8a9536ff3811682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b1ff95b8b0df48de8bd79ad149cb38') in 0.085264 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004164 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\RANIERDALTONDOCOUTO\Documents\GitHub\Where-I-am\Labirinto-Terror\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
-Domain Reload Profiling:
-	ReloadAssembly (860ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (694ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (246ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.9 MB.
-System memory in use after: 72.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1997.
-Total: 3.956000 ms (FindLiveObjects: 0.122700 ms CreateObjectMapping: 0.046300 ms MarkObjects: 3.762200 ms  DeleteObjects: 0.023700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab
+  artifactKey: Guid(999388b68bb99b44099461bfbed94358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab using Guid(999388b68bb99b44099461bfbed94358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e75aae8343263ad703e632df3d866a7') in 0.019931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012702 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab
+  artifactKey: Guid(28a5e79925e3ce04a82856c16a572cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab using Guid(28a5e79925e3ce04a82856c16a572cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d5dbae40a6383e8187ace7a80c3c5b') in 0.021616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab
+  artifactKey: Guid(81154777d5417884981849c5243f6c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab using Guid(81154777d5417884981849c5243f6c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7052058a21241af1bca5b9e8bfeb6f9e') in 0.024050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs/Wall2.prefab
+  artifactKey: Guid(189dff70245addd45bf37c2e992c9912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs/Wall2.prefab using Guid(189dff70245addd45bf37c2e992c9912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5941c973251232472d8af3daa7f60cfd') in 0.457522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs/Trolley.prefab
+  artifactKey: Guid(b01fa194940f0624ca7e3df13bed1969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs/Trolley.prefab using Guid(b01fa194940f0624ca7e3df13bed1969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530c24d0c3320d00a218aed9b52c349d') in 0.450631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab
+  artifactKey: Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab using Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e282f6dd8f2b4d1a8a1db6aee91558e') in 0.021321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs/Lamp.prefab
+  artifactKey: Guid(2fa97d29375bda64080d41087c0c107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs/Lamp.prefab using Guid(2fa97d29375bda64080d41087c0c107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792a8a9a8ff87ac02ae8758563f75c23') in 0.232381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
+  artifactKey: Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab using Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9ee8761623c813778482dcc2bd6ba9') in 0.042134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs/DoorWay.prefab
+  artifactKey: Guid(42823df6e1b204a468f32120ecbe51f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs/DoorWay.prefab using Guid(42823df6e1b204a468f32120ecbe51f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2cf3f0e5553f3455234f0e4936e128') in 0.030310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs/Stretcher.prefab
+  artifactKey: Guid(381bdf9c7f27cce46b2699033a9b735a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs/Stretcher.prefab using Guid(381bdf9c7f27cce46b2699033a9b735a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cfc8679dc2bb4712a6afec845b486b') in 0.045926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab
+  artifactKey: Guid(3369231b1ed7ad34e84d9240a571db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab using Guid(3369231b1ed7ad34e84d9240a571db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c655cc80f5b363aadf3356a17221f15b') in 0.040396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Prefabs/GridProjector.prefab
+  artifactKey: Guid(46b12845355544642bf8f9d0cb373af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/Projectors/Prefabs/GridProjector.prefab using Guid(46b12845355544642bf8f9d0cb373af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3158e18756fa06cecb7442c71786b28') in 0.012286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs/Door.prefab
+  artifactKey: Guid(9c25864566bc2a7489bef25ecb47dd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs/Door.prefab using Guid(9c25864566bc2a7489bef25ecb47dd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33439aba0afea0af7acad9a0e88e6a8a') in 0.032701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+  artifactKey: Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab using Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05669a3157abb6de4bd4a164a6651c2') in 0.020071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs/Bad.prefab
+  artifactKey: Guid(5713ed639ef83f945b71f3b92342d629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs/Bad.prefab using Guid(5713ed639ef83f945b71f3b92342d629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32c0d07db0afe7e1a98d8ecc0b0bd9d') in 0.029433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Standard Assets/Characters/RollerBall/Prefabs/RollerBall.prefab
+  artifactKey: Guid(753ea9ccf9eee6c42a0954ec8663b992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/RollerBall/Prefabs/RollerBall.prefab using Guid(753ea9ccf9eee6c42a0954ec8663b992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39349ff0db517173efb679fed0910af') in 0.387516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000883 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs/OldCup.prefab
+  artifactKey: Guid(7e00b420d123b944b9365009b3dfd075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs/OldCup.prefab using Guid(7e00b420d123b944b9365009b3dfd075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a63bece45c36472554dc3d43389417') in 0.039408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs/ElectoPanel.prefab
+  artifactKey: Guid(516fd0d5b53125c48abf9d5a06873180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs/ElectoPanel.prefab using Guid(516fd0d5b53125c48abf9d5a06873180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f30635a78c9ee14f9a4d5ee659a869') in 0.028357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab
+  artifactKey: Guid(7737647c22c1fc64a88d5cd030c352ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab using Guid(7737647c22c1fc64a88d5cd030c352ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92966b31f93e98b054e0bc321e349707') in 0.170492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs/Cabels.prefab
+  artifactKey: Guid(6e2ce341e5d886d478c0c5b7aba00cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs/Cabels.prefab using Guid(6e2ce341e5d886d478c0c5b7aba00cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a248e7d4ae18a39d9cc1af9974f4c2') in 0.021119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab
+  artifactKey: Guid(c6453f8e1f814744d8b94e5a6d1f9942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab using Guid(c6453f8e1f814744d8b94e5a6d1f9942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c79497f625039066fbf55a2ce33d73') in 0.016745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs/Wall.prefab
+  artifactKey: Guid(acb5b460622c8ee4b825a3e68c33c1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs/Wall.prefab using Guid(acb5b460622c8ee4b825a3e68c33c1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad092f23a5ae44501869498e49ac617') in 0.023811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab
+  artifactKey: Guid(9529ecc3d479da5499993355e6c2cb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab using Guid(9529ecc3d479da5499993355e6c2cb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbafa4ebbab927031312e4546994a397') in 0.062892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs/WallDoorWay.prefab
+  artifactKey: Guid(3bab19842fc2b8e44837b5c42192679d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs/WallDoorWay.prefab using Guid(3bab19842fc2b8e44837b5c42192679d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833e310cb3dc74067b6cbbe5f00e5271') in 0.037759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab
+  artifactKey: Guid(54eb5844754051b40a918a84c33b7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab using Guid(54eb5844754051b40a918a84c33b7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e069c37102a22edfcc0a1865906ab0') in 0.100891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.546466 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Bed_01.prefab
+  artifactKey: Guid(2ca85dfd1a5ba8d45b36c20053b13142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Bed_01.prefab using Guid(2ca85dfd1a5ba8d45b36c20053b13142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e8de616a5ce85ba2ac8450cfcea40b') in 0.695945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Floor_02.prefab
+  artifactKey: Guid(695e9c39c231cfa41a135e68073a9772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Floor_02.prefab using Guid(695e9c39c231cfa41a135e68073a9772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d0c9b0abb252f564c12294f5128724') in 0.237320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Module_DoorRoom_01.prefab
+  artifactKey: Guid(3889b3008743b404aba704ca0f2f2989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Module_DoorRoom_01.prefab using Guid(3889b3008743b404aba704ca0f2f2989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fcd9143c1a209991511e7ede4115de') in 0.425667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Wall_02.prefab
+  artifactKey: Guid(a71dd1fa6efddfa41990980cd044de47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Wall_02.prefab using Guid(a71dd1fa6efddfa41990980cd044de47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c182499456d9baed4b35c36a6f4f82f9') in 0.034152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002303 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Floor_01.prefab
+  artifactKey: Guid(b826295956c65444987d7baae67c5858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Floor_01.prefab using Guid(b826295956c65444987d7baae67c5858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293f5bd8cfe067dc680d1159209129a4') in 0.047862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_BedBedding.prefab
+  artifactKey: Guid(73dd7a893b9f3b547a73fc800af96e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_BedBedding.prefab using Guid(73dd7a893b9f3b547a73fc800af96e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac0d27dc1a7d821cf7a21965287f4fa') in 0.386317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Med_box_01.prefab
+  artifactKey: Guid(eeefdd9044a28504abd5e39c9e8fe5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Med_box_01.prefab using Guid(eeefdd9044a28504abd5e39c9e8fe5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86127eabda591e1ab968f323d875a0c8') in 0.052360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Ceiling_01.prefab
+  artifactKey: Guid(b0f7abaadca23ea4d910efe028624076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Ceiling_01.prefab using Guid(b0f7abaadca23ea4d910efe028624076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a88dcdc81179dc6e02025d4bf76281') in 0.052292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Lamp.prefab
+  artifactKey: Guid(dc8f3955c063af240afd23143f496335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Lamp.prefab using Guid(dc8f3955c063af240afd23143f496335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca7eecd731c6b4215fc89d150f7b727') in 0.048879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Column_01.prefab
+  artifactKey: Guid(65968727b1724da49a554ba4d50f4ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Column_01.prefab using Guid(65968727b1724da49a554ba4d50f4ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9672e6c793c139de2890cf544e4b60') in 0.045906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Door_01_.prefab
+  artifactKey: Guid(df2f14ece3a3a0847aad4f1407b39c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Door_01_.prefab using Guid(df2f14ece3a3a0847aad4f1407b39c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd54999b7a2f1ffa460fb4f47846c395') in 0.234460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Wall_01.prefab
+  artifactKey: Guid(a73967be39a7cc74ca310e8a9d9de82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Wall_01.prefab using Guid(a73967be39a7cc74ca310e8a9d9de82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8653e3c9960f570ef53ba0ff3979743b') in 0.032852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Door_01_Base.prefab
+  artifactKey: Guid(6d0f69892e260164b9b56372f7556fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Door_01_Base.prefab using Guid(6d0f69892e260164b9b56372f7556fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec0f33238c232bbadc99af7fa349325') in 0.052348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Module_DoorRoom_02.prefab
+  artifactKey: Guid(78dc1f2f7ef70c74a8ecfc380bab48be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Module_DoorRoom_02.prefab using Guid(78dc1f2f7ef70c74a8ecfc380bab48be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba1cb1dc81bd0ba7307b46b5069a6dc') in 0.070480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.269544 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack
+  artifactKey: Guid(c984ca13d16632e41a30c5e1f473ba83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack using Guid(c984ca13d16632e41a30c5e1f473ba83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9dd493eab8bf3e2c9ed893bd1a05075') in 0.008120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.450095 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models
+  artifactKey: Guid(dfcbaf66129769e43bf64d5b73ffa859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models using Guid(dfcbaf66129769e43bf64d5b73ffa859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833b5c31b14caaa5069917f40597c623') in 0.009992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.095139 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Bed_01.obj
+  artifactKey: Guid(b47f5c9ac3a4adc4582f259efbe3c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Bed_01.obj using Guid(b47f5c9ac3a4adc4582f259efbe3c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15480d96559fae6a60b8a4d05efb638c') in 0.095741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Floor_02.obj
+  artifactKey: Guid(2ec12a10dd1a99b498eec7fd09146b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Floor_02.obj using Guid(2ec12a10dd1a99b498eec7fd09146b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df32c900fd51e15c4f195d647bc7b6e8') in 0.065811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Lamp.obj
+  artifactKey: Guid(99d1229755c80d54d975792177cdddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Lamp.obj using Guid(99d1229755c80d54d975792177cdddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e98d8a5d8d0a2d4f9bf0243105c837a') in 0.053158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Floor_01.obj
+  artifactKey: Guid(3565346867580db48870fbcfd66de77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Floor_01.obj using Guid(3565346867580db48870fbcfd66de77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140ee7a071f4b7362b457d64c6105d5b') in 0.044356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Module_DoorRoom_01.obj
+  artifactKey: Guid(0d79e6eeb6fa3724482d6c497796a964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Module_DoorRoom_01.obj using Guid(0d79e6eeb6fa3724482d6c497796a964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d75383bcd64728bfccbc4fa2a2715b4') in 0.103762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Module_DoorRoom_02.obj
+  artifactKey: Guid(2e7ceb9bdea64d749a31eaaf90027994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Module_DoorRoom_02.obj using Guid(2e7ceb9bdea64d749a31eaaf90027994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9bd2860d3e22399af6e97332798508') in 0.137408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_BedBedding_01.obj
+  artifactKey: Guid(92a399879ec49094b8bd5109dd1d830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_BedBedding_01.obj using Guid(92a399879ec49094b8bd5109dd1d830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468a94767bdd166f99cc64bf8539f91b') in 0.042746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Wall_01.obj
+  artifactKey: Guid(220440116ec5d2f4fa6d4c4b8a9e095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Wall_01.obj using Guid(220440116ec5d2f4fa6d4c4b8a9e095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365eb10f9c1dced76cb168add28f8b2a') in 0.060110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Med_box_01.FBX
+  artifactKey: Guid(18ce9342c786442408d15b750748b72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Med_box_01.FBX using Guid(18ce9342c786442408d15b750748b72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1b620e443c3fa2ae0f800e8acd5d4a') in 0.044236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Wall_02.obj
+  artifactKey: Guid(2e7a8487ab4626741848c28337daebd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Wall_02.obj using Guid(2e7a8487ab4626741848c28337daebd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253b5b52fa484f6a2eeba1b70d276e2a') in 0.061568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Ceiling_01.obj
+  artifactKey: Guid(fb6d3eae3b4e46e46a8b71b5faa7e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Ceiling_01.obj using Guid(fb6d3eae3b4e46e46a8b71b5faa7e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9d2da37bbb446b4f0239ad4e0a600c') in 0.043656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Door_01.obj
+  artifactKey: Guid(8c088c51437f8e84c8ccf368945d30c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Door_01.obj using Guid(8c088c51437f8e84c8ccf368945d30c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3725071b2785cb7ae27cfa0636c043ce') in 0.060360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Column_01.FBX
+  artifactKey: Guid(9287a4cf151cef34fb2bf51cfb3565a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Column_01.FBX using Guid(9287a4cf151cef34fb2bf51cfb3565a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205fe3b475b0fb38c91e787b28d63a48') in 0.042251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.162012 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials
+  artifactKey: Guid(0ae0ec82d0397174183a4c45753b8873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials using Guid(0ae0ec82d0397174183a4c45753b8873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af7008eee778b89b484e783a174a2ca') in 0.012568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.994366 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/M_BedBedding.mat
+  artifactKey: Guid(96ad2410114456e40aa2cc44f2fe16c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/M_BedBedding.mat using Guid(96ad2410114456e40aa2cc44f2fe16c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c8dd2dfefaba6ca2d2a7c886b099a1') in 0.068828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Bed_Metal_01.mat
+  artifactKey: Guid(ae4076d094d20da4da7dc8fa3ae36015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Bed_Metal_01.mat using Guid(ae4076d094d20da4da7dc8fa3ae36015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fc333504a1a0a5552e81eaccd8c690') in 0.047144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Door_01.mat
+  artifactKey: Guid(a79fd100eebc3e946a5d6df1a792fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Door_01.mat using Guid(a79fd100eebc3e946a5d6df1a792fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25aabab35be0f2267e1c8b18192556a') in 0.045711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Bed_Metal_01s.mat
+  artifactKey: Guid(80cb81cea798afb43987837e11469c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Bed_Metal_01s.mat using Guid(80cb81cea798afb43987837e11469c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf03c5536564a84d6b87c785a426b9a') in 0.054166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Lamp_Off.mat
+  artifactKey: Guid(43e1eaee58e6e1f42a8e6d905a406298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Lamp_Off.mat using Guid(43e1eaee58e6e1f42a8e6d905a406298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6e2838d3aa12cba5181a7daff0857b') in 0.041604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Lamp.mat
+  artifactKey: Guid(6a26c29b0186b3949a52130085310c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Lamp.mat using Guid(6a26c29b0186b3949a52130085310c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d24fb0f44ca1e5671e2aa0cc7b48069') in 0.045209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Tile01.mat
+  artifactKey: Guid(c062415a802b2f846916a90dadc80f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Tile01.mat using Guid(c062415a802b2f846916a90dadc80f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799c621fec5b73d7df0e861a77af1409') in 0.030601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000615 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Walllime02.mat
+  artifactKey: Guid(dd4ae9458a7d1694c8fa66432938e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Walllime02.mat using Guid(dd4ae9458a7d1694c8fa66432938e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6029a04672c4743e31d6a10d48ae1844') in 0.040749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Door_01_G.mat
+  artifactKey: Guid(52c326e58d79dae4b84c4fe3a0970284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Door_01_G.mat using Guid(52c326e58d79dae4b84c4fe3a0970284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2904bff93d24ba0e3f7f9df9e81e0c65') in 0.040872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Walllime01_C.mat
+  artifactKey: Guid(8a7f3e3f34602944ca9b0a89e0f7be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Walllime01_C.mat using Guid(8a7f3e3f34602944ca9b0a89e0f7be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88715ebfb26ea6e8e5906522c13fc739') in 0.033972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001001 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Tile02.mat
+  artifactKey: Guid(6eedf1229b2548749afd34673f053a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Tile02.mat using Guid(6eedf1229b2548749afd34673f053a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80da97343da6ed849c88fc1a7e7ff47') in 0.039564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Med_box_01.mat
+  artifactKey: Guid(5185afe064a3d8541a43d014b7ed46ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Med_box_01.mat using Guid(5185afe064a3d8541a43d014b7ed46ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f11dd63bde180528880f35888e8ba0e') in 0.055493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.534848 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures
+  artifactKey: Guid(94a7a00bb05fa2e44ab3dd420121b030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures using Guid(94a7a00bb05fa2e44ab3dd420121b030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfd827679d54dfc5e2a838ed3547edc') in 0.011884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.224941 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01.tga
+  artifactKey: Guid(6febee19ac762cf46aa78cebb2d48dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01.tga using Guid(6febee19ac762cf46aa78cebb2d48dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4efecb3bd967c92503bba31fae1fadf') in 0.073693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_R.TGA
+  artifactKey: Guid(dbe39981618f6f141b9a6aa20aa1ed9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_R.TGA using Guid(dbe39981618f6f141b9a6aa20aa1ed9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2462f97cd57678f3840308a91253c9a2') in 0.026115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_S.tga
+  artifactKey: Guid(78afc70bb0dd78744be4bc4a5446876e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_S.tga using Guid(78afc70bb0dd78744be4bc4a5446876e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58e318fe36dc857828a4731e4d0bd69') in 0.031150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001149 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_R.TGA
+  artifactKey: Guid(b8bb4830a55b4464fbf9f91f387148e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_R.TGA using Guid(b8bb4830a55b4464fbf9f91f387148e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c68b6c89c7c71f3051ee4ed39f99d6d') in 0.025683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_A.tga
+  artifactKey: Guid(6a09d6b8923975e4b9af12a04e9d39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_A.tga using Guid(6a09d6b8923975e4b9af12a04e9d39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142764b44ec701683961db2c9fa6a76a') in 0.025670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile03_N.tga
+  artifactKey: Guid(ebc9188e67cba8944bb3818d0e18fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile03_N.tga using Guid(ebc9188e67cba8944bb3818d0e18fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9705ec0e26679f0400f1c608a73f0b18') in 0.033956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_R.TGA
+  artifactKey: Guid(300acc0be6e47024690a4baa38095d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_R.TGA using Guid(300acc0be6e47024690a4baa38095d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8079d45ec04a3fe93395e196f51faae3') in 0.031765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001095 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_G.png
+  artifactKey: Guid(1169160aab534cd4aaf32738057f4341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_G.png using Guid(1169160aab534cd4aaf32738057f4341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2a9d75122faed0012a7a4071e30aae') in 0.030005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_M.tga
+  artifactKey: Guid(b0d09a717c8c74d429116d820bcf49f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_M.tga using Guid(b0d09a717c8c74d429116d820bcf49f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51698f6c7c9715b34f8c761bdab1a46c') in 0.021952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding.tga
+  artifactKey: Guid(65fc25f6168a5594f8e69299285e76d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding.tga using Guid(65fc25f6168a5594f8e69299285e76d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5676ab04b4bd104ed2606f37670474a') in 0.018853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_N.tga
+  artifactKey: Guid(e6c17b59ff07a9e49990101f18210ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_N.tga using Guid(e6c17b59ff07a9e49990101f18210ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670e33f6be5ad640ad7ab0ed066bd925') in 0.020760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_G_N.png
+  artifactKey: Guid(96068c214ec55854a9b721fffd6570a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_G_N.png using Guid(96068c214ec55854a9b721fffd6570a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3730936cd31f09d4a808fdcea8de96b5') in 0.017258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_MR.tga
+  artifactKey: Guid(ace021d20dc4fee42905fc84d876b02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_MR.tga using Guid(ace021d20dc4fee42905fc84d876b02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399ee02a6f3286dfb10bd59eb81dcd6e') in 0.016122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_C.TGA
+  artifactKey: Guid(7b98973f5058c8d489993665865ac405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_C.TGA using Guid(7b98973f5058c8d489993665865ac405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28eb1e2214ac119c815185b24696e530') in 0.016716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp.png
+  artifactKey: Guid(7d080a928d4dfe9469d81fcb65783a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp.png using Guid(7d080a928d4dfe9469d81fcb65783a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc568e1d6171b440b24d24111e59f582') in 0.031504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01.tga
+  artifactKey: Guid(71fcdacc93daf0e46bca8ddba2ef798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01.tga using Guid(71fcdacc93daf0e46bca8ddba2ef798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d1a7214ebdee2d0c77128b018155b3') in 0.028710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_C.TGA
+  artifactKey: Guid(cae203f5c6ff2144a923288d09757339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_C.TGA using Guid(cae203f5c6ff2144a923288d09757339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3cdf90a9982a06f848d8aefdfb72e4') in 0.032668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_M.png
+  artifactKey: Guid(b86fb20848ffead4eae4033d276cac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_M.png using Guid(b86fb20848ffead4eae4033d276cac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d121de1e7e4a456d17bf01abbec7712') in 0.033421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000780 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01_N.tga
+  artifactKey: Guid(270dba9cddd76504188a0bc9a4718876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01_N.tga using Guid(270dba9cddd76504188a0bc9a4718876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0333f4e7e19e3fd4697455c8a09405c') in 0.024491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000946 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_N.png
+  artifactKey: Guid(75cc079cbae9eca4b923796faecd0ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_N.png using Guid(75cc079cbae9eca4b923796faecd0ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482b59b611cdf8e2d5fd0c1d04ea75db') in 0.027883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_N.tga
+  artifactKey: Guid(1187c62cb03f7a243bd9b242817bc2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_N.tga using Guid(1187c62cb03f7a243bd9b242817bc2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f439a409ccd15f2badbb8eeea90e7dd6') in 0.024557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_AO.tga
+  artifactKey: Guid(9ff408b0cb141da43ba77e4a49f64c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_AO.tga using Guid(9ff408b0cb141da43ba77e4a49f64c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fb889b729430aebf538a448656b590') in 0.022725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000745 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile03.tga
+  artifactKey: Guid(ce657f6d6152f1f4da298034f080aa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile03.tga using Guid(ce657f6d6152f1f4da298034f080aa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b6687dde6c8e8f2b2c2f950ad9d47f') in 0.024464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_E.png
+  artifactKey: Guid(fa12d4b1eb5b8f946ac445d33bf0eddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_E.png using Guid(fa12d4b1eb5b8f946ac445d33bf0eddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baff9211e05e207524fcb94f4add5a50') in 0.025733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_N.tga
+  artifactKey: Guid(ac78e263370d86646b803867f58812db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_N.tga using Guid(ac78e263370d86646b803867f58812db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25f6392b25f97f97f5a22c1041ce9ad') in 0.028423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime02_N.tga
+  artifactKey: Guid(d1208c33c57b6694aa1982e7193cba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime02_N.tga using Guid(d1208c33c57b6694aa1982e7193cba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05100e77b4e2c4533b794a175c2f8214') in 0.033541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_M.psd
+  artifactKey: Guid(933f5a2bcdadaca40a718461c8fe3ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_M.psd using Guid(933f5a2bcdadaca40a718461c8fe3ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dfcb8f25d2d02721312df2766c842a') in 0.042467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_N.psd
+  artifactKey: Guid(bfe7e5cf3ad491a4e84b3cb14ce08ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_N.psd using Guid(bfe7e5cf3ad491a4e84b3cb14ce08ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be09b920290412c0ee878025761c7f84') in 0.023289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime02_C.tga
+  artifactKey: Guid(ef4dc55c98f1e38479f254791f71a51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime02_C.tga using Guid(ef4dc55c98f1e38479f254791f71a51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c698e6dcebcde2f53e4718cfb7483f3f') in 0.026565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_N.TGA
+  artifactKey: Guid(598acd9ebe884f440a97da6f8426483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_N.TGA using Guid(598acd9ebe884f440a97da6f8426483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe020d286fcf0faecb550fb9f0b716a1') in 0.027789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01_M.tga
+  artifactKey: Guid(4b37689a686d65946bcdd617ca41bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01_M.tga using Guid(4b37689a686d65946bcdd617ca41bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b48111e95edc117c3d8b807345c020b') in 0.032127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_N.tga
+  artifactKey: Guid(2c2941ed45c0e7f4486cb3adc97f188e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_N.tga using Guid(2c2941ed45c0e7f4486cb3adc97f188e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be412151bb64456cf9b8ff6ecb5e7d2d') in 0.026962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_C.tga
+  artifactKey: Guid(f1de0460afd04b642a261aef2e069024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_C.tga using Guid(f1de0460afd04b642a261aef2e069024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8aa230f379ccd36d7a05d0e85917c11') in 0.032293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_N.tga
+  artifactKey: Guid(9f55a5c8d4742cc47954204866783093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_N.tga using Guid(9f55a5c8d4742cc47954204866783093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e10709fb8ad2e95e89a774fd046fff') in 0.027803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 221.000941 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab
+  artifactKey: Guid(895346604be8a9c4f90a21a4ffc68933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab using Guid(895346604be8a9c4f90a21a4ffc68933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10334ab16cddbc7b9e132246fc7190df') in 0.012081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.306622 seconds.
+  path: Assets/Dnk_Dev
+  artifactKey: Guid(fc46932dd9d592c4db4ad10b14c23faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev using Guid(fc46932dd9d592c4db4ad10b14c23faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9c3f139325c865ff2be56d26cba832') in 0.010491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.701148 seconds.
+  path: Assets/HorrorHospitalPackFJM.unitypackage
+  artifactKey: Guid(fcdbec58ed3189e4a9392e6d08519d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorHospitalPackFJM.unitypackage using Guid(fcdbec58ed3189e4a9392e6d08519d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335e79ae47392394fe017e4b5ea6f8d9') in 0.025342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.710858 seconds.
+  path: Assets/Assets Store
+  artifactKey: Guid(ae9f5983f0c17dc44b9b6f134b8dcb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Store using Guid(ae9f5983f0c17dc44b9b6f134b8dcb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b8bbc1583a89b7663af18d2b673927') in 0.012894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.755232 seconds.
+  path: Assets/Assets Store/Hosp2
+  artifactKey: Guid(111388e8148d19044bbf0a645a1c0c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Store/Hosp2 using Guid(111388e8148d19044bbf0a645a1c0c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27415f833105deeb1e9ff48b7d3104c2') in 0.011983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.198615 seconds.
+  path: Assets/TestMap.unity
+  artifactKey: Guid(5b6b7d90d160bed4da722754b8a19c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestMap.unity using Guid(5b6b7d90d160bed4da722754b8a19c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3475ada3b03534984805c86859d4c9fc') in 0.008646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.263756 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(51768c02b494b254abe99539a604f98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(51768c02b494b254abe99539a604f98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7379f9de691fd657b159f3986816ff9') in 0.010625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.786195 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a37bc8dfae4e6c17e46b499c593f3a2') in 0.014649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.500015 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(d59973a0b08e61b429bf567f71b1bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(d59973a0b08e61b429bf567f71b1bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf5c13a46cae994b9bbde69cf48da2e') in 0.009050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.729234 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(e253e5b3204424d44b11cbf9e172b10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(e253e5b3204424d44b11cbf9e172b10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47f66d09253bd6866d13979b88c1022') in 0.010380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.217637 seconds.
+  path: Assets/Horror Hospital Pack
+  artifactKey: Guid(ca35fe4a47f016644b2c54942a16e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack using Guid(ca35fe4a47f016644b2c54942a16e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a78cf1a37632f8f9741b7358e49eff') in 0.011145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.249926 seconds.
+  path: Assets/Horror Hospital Pack/Materials
+  artifactKey: Guid(07bc3393f35a05f4bba72d700c4d800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials using Guid(07bc3393f35a05f4bba72d700c4d800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe933d743baec7c8a5d650cb83d4f7f') in 0.009064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.073364 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Sil
+  artifactKey: Guid(c62375e32b04d0e40ba65d93ea056ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials/Sil using Guid(c62375e32b04d0e40ba65d93ea056ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1758037755ba5091604795be80d6fc22') in 0.009369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071947 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Sil/Sil.mat
+  artifactKey: Guid(5e775ae87c8c8604c9cb47129c773b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials/Sil/Sil.mat using Guid(5e775ae87c8c8604c9cb47129c773b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefda8e940ce1f0e34fdb0e1d5d20a95') in 0.357133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Sil/Sil_Hi.png
+  artifactKey: Guid(c6f6938231e30ec4da2b22a8b0079cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials/Sil/Sil_Hi.png using Guid(c6f6938231e30ec4da2b22a8b0079cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6040b3dfcc02f99ca61257ed3f9e7d7c') in 0.023011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Sil/Sil_Normal.png
+  artifactKey: Guid(2313ef2bc9800064aabae27e1dc49d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials/Sil/Sil_Normal.png using Guid(2313ef2bc9800064aabae27e1dc49d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc2a01765180f08970cb10074f65a51') in 0.027774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Sil/Sil.png
+  artifactKey: Guid(f8c2e7e3feb65384d8677eaf7aed1b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials/Sil/Sil.png using Guid(f8c2e7e3feb65384d8677eaf7aed1b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86795ba60e80ae70d44cbff69d4d459') in 0.032520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.480944 seconds.
+  path: Assets/Editor/CrossPlatformInput
+  artifactKey: Guid(41e4f29e5dee9ec48a2538955ef1de71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/CrossPlatformInput using Guid(41e4f29e5dee9ec48a2538955ef1de71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa7718a1d4a2e9f2cd3da5da44b3025') in 0.010584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.160120 seconds.
+  path: Assets/Standard Assets
+  artifactKey: Guid(73a6867e93e44ff409aae853f25a327c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets using Guid(73a6867e93e44ff409aae853f25a327c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01343765db95e3c2635137a5c95640ff') in 0.010627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.143441 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials
+  artifactKey: Guid(5eebb5849c50a2c4ea24ded96e6f3aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials using Guid(5eebb5849c50a2c4ea24ded96e6f3aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf890640933dabe807afbf679ea7926') in 0.008943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080841 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial
+  artifactKey: Guid(9f93f63d068b08c459038c40fce897d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial using Guid(9f93f63d068b08c459038c40fce897d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b509c8d087de20f611744b870a91fcf2') in 0.009457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/Ice.physicmaterial
+  artifactKey: Guid(ba92fb44336020f40bdf294bb66bc9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/Ice.physicmaterial using Guid(ba92fb44336020f40bdf294bb66bc9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226e21a51ac5fecc830b62ba8c1da937') in 0.011618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial
+  artifactKey: Guid(52baaeb214519f347a35cf0edfd262ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial using Guid(52baaeb214519f347a35cf0edfd262ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c39e8d83ea72a372b68d0276e0e6dd') in 0.014151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/Wood.physicmaterial
+  artifactKey: Guid(3aeb7dadc0c69d54d9e5777e9d5631f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/Wood.physicmaterial using Guid(3aeb7dadc0c69d54d9e5777e9d5631f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd910b21f786d525678b2c1af82aa3c5') in 0.014674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/ZeroFriction.physicMaterial
+  artifactKey: Guid(c2815a7ab32e42c4bb42f59caacb8ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/ZeroFriction.physicMaterial using Guid(c2815a7ab32e42c4bb42f59caacb8ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d34b72fb9b939ee1f37c28943b73489') in 0.016354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/MaxFriction.physicMaterial
+  artifactKey: Guid(e52fb17f9b1e7fd48b8955f1391d3688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/MaxFriction.physicMaterial using Guid(e52fb17f9b1e7fd48b8955f1391d3688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5caaf355752d5eb823d6d046407924') in 0.014868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/Metal.physicmaterial
+  artifactKey: Guid(01571ba68fb2dad46aa03094ab219579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/Metal.physicmaterial using Guid(01571ba68fb2dad46aa03094ab219579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86700fd1ba519a5ab37cae1aa5993e25') in 0.013832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.140495 seconds.
+  path: Assets/Horror Hospital Pack/Prefabs
+  artifactKey: Guid(439aaa1fdb4f2834fb8297ff893e617c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Prefabs using Guid(439aaa1fdb4f2834fb8297ff893e617c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06954bda1c620f93a96e00d5a82760aa') in 0.010835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.714004 seconds.
+  path: Assets/Horror Hospital Pack/Models
+  artifactKey: Guid(1d5b445e1a829244d8f847e0690f9425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models using Guid(1d5b445e1a829244d8f847e0690f9425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa152379e83607d53a79f315a4d4f28f') in 0.003998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.684157 seconds.
+  path: Assets/Horror Hospital Pack/Models/Bad
+  artifactKey: Guid(31dd5bcfc2f58754788b1c5c01c7beb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Bad using Guid(31dd5bcfc2f58754788b1c5c01c7beb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884a2ce037c2846f30a532c87a9743bf') in 0.002904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078383 seconds.
+  path: Assets/Horror Hospital Pack/Models/Bad/Bad.FBX
+  artifactKey: Guid(b14dfb445f850ea4ba4e6b34702e612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Bad/Bad.FBX using Guid(b14dfb445f850ea4ba4e6b34702e612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948cb53c25ddb2808efddb9dbf07befd') in 0.021611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Horror Hospital Pack/Models/Bad/mBad.mat
+  artifactKey: Guid(ea9be4074714373448ef5b014f033411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Bad/mBad.mat using Guid(ea9be4074714373448ef5b014f033411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cb219b00ffeafe84dd40c855760d89') in 0.038690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Horror Hospital Pack/Models/Bad/Bad_n.png
+  artifactKey: Guid(a9062d1e8d1601a4ea69e400ec739c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Bad/Bad_n.png using Guid(a9062d1e8d1601a4ea69e400ec739c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86290baea5197ac84b2937a54aa5a19b') in 0.023228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Horror Hospital Pack/Models/Bad/Bad_d.png
+  artifactKey: Guid(14486d50ab6363d45941a26fe7d85a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Bad/Bad_d.png using Guid(14486d50ab6363d45941a26fe7d85a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c5f7b1e0880147e581a2cfe93c67b2') in 0.028514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.133481 seconds.
+  path: Assets/Horror Hospital Pack/Models/Wall
+  artifactKey: Guid(6c1847bdf1f1a3a41909a71fc7a6658c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Wall using Guid(6c1847bdf1f1a3a41909a71fc7a6658c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3232c6e097a408c14b9afb3fa7df22dc') in 0.003166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058708 seconds.
+  path: Assets/Horror Hospital Pack/Models/Wall/Wall.FBX
+  artifactKey: Guid(ec89eaad22bce364eabcdae8f401ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Wall/Wall.FBX using Guid(ec89eaad22bce364eabcdae8f401ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2586e76c67c8fe401420dd355facd450') in 0.034098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000934 seconds.
+  path: Assets/Horror Hospital Pack/Models/Wall/Wall01.FBX
+  artifactKey: Guid(40b8fd596870e5e4cb4ccb145b409d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Wall/Wall01.FBX using Guid(40b8fd596870e5e4cb4ccb145b409d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864cd0a3cf1fdf1c30a6d7981d3121e0') in 0.039132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Horror Hospital Pack/Models/Wall/WallDiffuse.png
+  artifactKey: Guid(b94ef4445ad4fd8489dff424093fef7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Wall/WallDiffuse.png using Guid(b94ef4445ad4fd8489dff424093fef7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8ad5d807dda3bd54a9360f20c929cc') in 0.020147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Horror Hospital Pack/Models/Wall/WallDiffuse.mat
+  artifactKey: Guid(b4f289f5dfeab2a4e95f745560cfe1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Wall/WallDiffuse.mat using Guid(b4f289f5dfeab2a4e95f745560cfe1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1017fe031ab0d6dc4c99da51995fa62e') in 0.026186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Horror Hospital Pack/Models/Wall/WallNormal.png
+  artifactKey: Guid(516e794a42674554b890cc23b6a9c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Wall/WallNormal.png using Guid(516e794a42674554b890cc23b6a9c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a3bce844cad2179ef87ffd8a8a7805') in 0.023271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Horror Hospital Pack/Models/Wall/WallHeightl.png
+  artifactKey: Guid(3e2aeb900fb8f75449dacd9124f90ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Wall/WallHeightl.png using Guid(3e2aeb900fb8f75449dacd9124f90ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47d0a1852e12a40e525a426790ff8c5') in 0.028074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.764445 seconds.
+  path: Assets/Horror Hospital Pack/Models/Wall/Materials
+  artifactKey: Guid(ca991d518ee6ab54584d3dea4baf9279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Wall/Materials using Guid(ca991d518ee6ab54584d3dea4baf9279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4699ce1182b5b0e487f8e789b95357ac') in 0.003170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058220 seconds.
+  path: Assets/Horror Hospital Pack/Models/Wall/Materials/WallDiffuse.mat
+  artifactKey: Guid(00c9db932a924aa42adb786058efcc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Wall/Materials/WallDiffuse.mat using Guid(00c9db932a924aa42adb786058efcc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db036437bf45215b79d2dc8cffb7af6a') in 0.015233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.937256 seconds.
+  path: Assets/Horror Hospital Pack/Models/WallDoorway
+  artifactKey: Guid(4f988c9877011e64f98afb5911b4ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/WallDoorway using Guid(4f988c9877011e64f98afb5911b4ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa95ae3efd31e3246e833597d7fe8fa') in 0.009160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.929354 seconds.
+  path: Assets/Horror Hospital Pack/Models/WallDoorway/WallDoorway.FBX
+  artifactKey: Guid(ca4ab8c150aaba443a8b59259dc91b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/WallDoorway/WallDoorway.FBX using Guid(ca4ab8c150aaba443a8b59259dc91b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02bb4660e30cdaa34f0b7369f45a1c0') in 0.022793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.042780 seconds.
+  path: Assets/Horror Hospital Pack/Models/WallDoorway/Materials
+  artifactKey: Guid(eb3c23985354a7747ab706b93e6dffc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/WallDoorway/Materials using Guid(eb3c23985354a7747ab706b93e6dffc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e841b3dc91438208e548901c8ac0117f') in 0.002892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079195 seconds.
+  path: Assets/Horror Hospital Pack/Models/WallDoorway/Materials/WallDiffuse.mat
+  artifactKey: Guid(d7c9c9b9dd698f645884d5c9da8d2640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/WallDoorway/Materials/WallDiffuse.mat using Guid(d7c9c9b9dd698f645884d5c9da8d2640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0a2e93879e106516124aa5740efb1b') in 0.012891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.303978 seconds.
+  path: Assets/Horror Hospital Pack/Models/Stretcher
+  artifactKey: Guid(7be08f1dc4ea1394088c074f6c43de65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Stretcher using Guid(7be08f1dc4ea1394088c074f6c43de65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f44c8e7475365fc3dcbdc032d4eaa84') in 0.009199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087776 seconds.
+  path: Assets/Horror Hospital Pack/Models/Stretcher/FP650.FBX
+  artifactKey: Guid(486f62fac68241f41b0ee233cb2d3c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Stretcher/FP650.FBX using Guid(486f62fac68241f41b0ee233cb2d3c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc5995f8bd280579c4bce4b26751b01') in 0.036133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Horror Hospital Pack/Models/Stretcher/FP650_n.png
+  artifactKey: Guid(24f5e013caac7c54e9992e83cea50cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Stretcher/FP650_n.png using Guid(24f5e013caac7c54e9992e83cea50cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151839c9068bde8a89df88de2400f445') in 0.021782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Horror Hospital Pack/Models/Stretcher/mStretcher.mat
+  artifactKey: Guid(d7a59112f0ac6dd47a66ec5359d4100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Stretcher/mStretcher.mat using Guid(d7a59112f0ac6dd47a66ec5359d4100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce663146f75725ca533fd4b5d6bb71bb') in 0.033661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Horror Hospital Pack/Models/Stretcher/FP650_Diffuse.png
+  artifactKey: Guid(f15bd22eba92b2c48b648c1a25950575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Stretcher/FP650_Diffuse.png using Guid(f15bd22eba92b2c48b648c1a25950575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34567175d829752581409282dd002a54') in 0.028340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.430937 seconds.
+  path: Assets/Horror Hospital Pack/Models/SD
+  artifactKey: Guid(bb5e1b2b2f5057c4b87357eb3a02bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/SD using Guid(bb5e1b2b2f5057c4b87357eb3a02bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9177da74fb50783c416bf01936a78a') in 0.013802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063106 seconds.
+  path: Assets/Horror Hospital Pack/Models/SD/mSD.mat
+  artifactKey: Guid(4576faa75149c8c4899f7f48951da25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/SD/mSD.mat using Guid(4576faa75149c8c4899f7f48951da25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc9a9362575fb8f61fb89847a376ecd') in 0.031634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Horror Hospital Pack/Models/SD/SDDiffuse.png
+  artifactKey: Guid(fe1e9257dd90991488e4a22f4d9afe6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/SD/SDDiffuse.png using Guid(fe1e9257dd90991488e4a22f4d9afe6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6458475a2a9015aee0b1b9f3f8111729') in 0.017739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Horror Hospital Pack/Models/SD/SDNormal.png
+  artifactKey: Guid(b858c2119a90eea458fa78f3d981b122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/SD/SDNormal.png using Guid(b858c2119a90eea458fa78f3d981b122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8d7edfbab17d538794fa77d4c57ed1') in 0.024380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Horror Hospital Pack/Models/SD/SD.FBX
+  artifactKey: Guid(6468c9a8e17142b4ca0f0ec3570361ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/SD/SD.FBX using Guid(6468c9a8e17142b4ca0f0ec3570361ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cd4a085732c04121c74d88aa007f86') in 0.037223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.946826 seconds.
+  path: Assets/Horror Hospital Pack/Models/Lamp
+  artifactKey: Guid(d2210f50342f61148beb5e337dccfeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Lamp using Guid(d2210f50342f61148beb5e337dccfeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7294971b146f8499f3925e40b589f0f3') in 0.009536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.652636 seconds.
+  path: Assets/Horror Hospital Pack/Models/Lamp/Lamp.FBX
+  artifactKey: Guid(ed676e4f39c168549bec09ecb638c51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Lamp/Lamp.FBX using Guid(ed676e4f39c168549bec09ecb638c51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528d3f2cf590462abc4af3caf978416b') in 0.034199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Horror Hospital Pack/Models/Lamp/LampDiffuse.png
+  artifactKey: Guid(fdf5c2c8889832c40bbda772a312a0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Lamp/LampDiffuse.png using Guid(fdf5c2c8889832c40bbda772a312a0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a564b29505e063904b9247bfbfb6c4d2') in 0.019999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Horror Hospital Pack/Models/Lamp/mLamp.mat
+  artifactKey: Guid(0529c95baad5a264787a242f949623c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Lamp/mLamp.mat using Guid(0529c95baad5a264787a242f949623c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2819b36dbf4cbfda16c9abd661869d') in 0.031759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Horror Hospital Pack/Models/Lamp/LampEmission.png
+  artifactKey: Guid(1be7b7735ea3a9e469d740265b1aedc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Lamp/LampEmission.png using Guid(1be7b7735ea3a9e469d740265b1aedc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7518167eef5d6e8ca23a2bc81b3b1d') in 0.024192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.515643 seconds.
+  path: Assets/TestMap
+  artifactKey: Guid(e451328d67f1b57449c7e1fc891e2625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestMap using Guid(e451328d67f1b57449c7e1fc891e2625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6c6e26d76be095dade691d5b71237d') in 0.010685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085425 seconds.
+  path: Assets/TestMap/LightmapSnapshot.asset
+  artifactKey: Guid(109adbef35ab6c843b100e7afcb5832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestMap/LightmapSnapshot.asset using Guid(109adbef35ab6c843b100e7afcb5832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightmapSnapshot’ is inconsistent because 2 files out of 10 are missing.  Please use Generate Lighting to rebuild the lighting data.
+Lighting data asset ‘LightmapSnapshot’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data.  Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+ -> (artifact id: 'cda4f8a342485f98fb7302a2276dd807') in 0.030306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/TestMap/SkyboxProbe-0.exr
+  artifactKey: Guid(a2d46ee4409f8a74689ce5ea70e5cc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestMap/SkyboxProbe-0.exr using Guid(a2d46ee4409f8a74689ce5ea70e5cc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa132615bc6d1ce20dd02ecb6388d85e') in 0.051097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.573693 seconds.
+  path: Assets/Standard Assets/Utility
+  artifactKey: Guid(8fb26caddeedb41c9ae5c09a23c52942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Utility using Guid(8fb26caddeedb41c9ae5c09a23c52942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd510339bea514f51d797c38fc63269b') in 0.017852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.247327 seconds.
+  path: Assets/Standard Assets/Utility/Prefabs
+  artifactKey: Guid(b43a4ef15621158419a2b639f7a98245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Utility/Prefabs using Guid(b43a4ef15621158419a2b639f7a98245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be9fd924c9c20373d6a4b059c9fa7ab') in 0.004239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.388937 seconds.
+  path: Assets/ToolboxAsset
+  artifactKey: Guid(44bb182863c2aae428ca443530f0e86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToolboxAsset using Guid(44bb182863c2aae428ca443530f0e86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527c35e0f97c1faba2159c5b8f032bf9') in 0.011192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.258549 seconds.
+  path: Assets/ToolboxAsset/ToolBox.unitypackage
+  artifactKey: Guid(1a5b2970404151642b52c9d58f0b4f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToolboxAsset/ToolBox.unitypackage using Guid(1a5b2970404151642b52c9d58f0b4f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1201641b6fdd57f3db9847fdaa4d446') in 0.011864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.811618 seconds.
+  path: Assets/Horror Hospital Pack/Models/Cabel
+  artifactKey: Guid(62c97cab37a9f4a4bbea520816692361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Cabel using Guid(62c97cab37a9f4a4bbea520816692361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd2ab9de4504d2e7732486a288f08f2') in 0.017743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085246 seconds.
+  path: Assets/Horror Hospital Pack/Models/Cabel/Cabels.FBX
+  artifactKey: Guid(613a77867ef6d964aab8036e91e96c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Cabel/Cabels.FBX using Guid(613a77867ef6d964aab8036e91e96c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e80149e4b0f3fed7175f8fc335f1ce') in 0.022598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Horror Hospital Pack/Models/Cabel/mCabels.mat
+  artifactKey: Guid(30cdb7a2de3ad004a98cf3feabfbeafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Cabel/mCabels.mat using Guid(30cdb7a2de3ad004a98cf3feabfbeafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3274395d7a9d6ce184ffd0b7791c6852') in 0.034199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Horror Hospital Pack/Models/Cabel/CabelsDiffuse.png
+  artifactKey: Guid(30b01e91f7edbc14bbc45d50527543a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Cabel/CabelsDiffuse.png using Guid(30b01e91f7edbc14bbc45d50527543a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6eee88a6cdb7257623495cb256e9c69') in 0.024129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.365555 seconds.
+  path: Assets/Horror Hospital Pack/Models/Cabel/Materials
+  artifactKey: Guid(2b515cad80e31854e985535917b1111e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Cabel/Materials using Guid(2b515cad80e31854e985535917b1111e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283395bb686b18a8deaf40b2c20d30ad') in 0.003306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072145 seconds.
+  path: Assets/Horror Hospital Pack/Models/Cabel/Materials/No Name.mat
+  artifactKey: Guid(0e028f0f241b06842b45d625daecca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Cabel/Materials/No Name.mat using Guid(0e028f0f241b06842b45d625daecca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c252f2cae4c416faca62b08168e9588a') in 0.024876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.799222 seconds.
+  path: Assets/Horror Hospital Pack/DemoScene.unity
+  artifactKey: Guid(333777fb04f093742ac3cf0ca1b5e242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/DemoScene.unity using Guid(333777fb04f093742ac3cf0ca1b5e242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c4a0935789b49aa510458d9cd00adc') in 0.008697 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
