@@ -2168,8 +2168,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 250860674}
-  - component: {fileID: 250860675}
   - component: {fileID: 250860676}
+  - component: {fileID: 250860675}
   m_Layer: 0
   m_Name: Chave3
   m_TagString: Untagged
@@ -2201,7 +2201,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 250860673}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 241fc0bcf9b636a4ea1c5cf94b6a1a5e, type: 3}
+  m_Script: {fileID: 11500000, guid: a93c8463e901816428f4fc54a3c943e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   inticon: {fileID: 981123702}
@@ -2323,7 +2323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 279890274}
-  speed: 7
+  speed: 4
   gravity: -4
   jumpHeight: 0
   groundCheck: {fileID: 461515706}
@@ -2347,7 +2347,7 @@ CharacterController:
   m_SlopeLimit: 45
   m_StepOffset: 0.7
   m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
+  m_MinMoveDistance: 0.0001
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &279890275
 Transform:
@@ -6286,7 +6286,7 @@ Transform:
   m_LocalScale: {x: 1, y: 3.7483954, z: 0.22962128}
   m_Children: []
   m_Father: {fileID: 1382171738}
-  m_RootOrder: 29
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &709671753
 PrefabInstance:
@@ -6367,8 +6367,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 712678807}
-  - component: {fileID: 712678808}
   - component: {fileID: 712678809}
+  - component: {fileID: 712678808}
   m_Layer: 0
   m_Name: Chave2
   m_TagString: Untagged
@@ -6400,7 +6400,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 712678806}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 241fc0bcf9b636a4ea1c5cf94b6a1a5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fde5b330bd31fd84daaf8ddf454c96ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   inticon: {fileID: 981123702}
@@ -7698,7 +7698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a47ff060f2b8b694bb580082473f4520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 500
+  mouseSensitivity: 400
   playerBody: {fileID: 279890275}
 --- !u!1001 &974593559
 PrefabInstance:
@@ -7890,8 +7890,8 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 60
-    m_FontStyle: 0
+    m_FontSize: 30
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
@@ -7901,7 +7901,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: .
+  m_Text: 'Pressione [E]
+
+    .'
 --- !u!222 &981123705
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12363,7 +12365,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 57
+    m_FontSize: 40
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -12374,7 +12376,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Encontre as chaves.
+  m_Text: Encontre os olhos.
 --- !u!222 &1379402579
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12411,6 +12413,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 857982639}
+  - {fileID: 694099733}
   - {fileID: 198097752}
   - {fileID: 1950473254}
   - {fileID: 1527431981}
@@ -12439,7 +12442,6 @@ Transform:
   - {fileID: 1129728206}
   - {fileID: 48316254}
   - {fileID: 174203680}
-  - {fileID: 694099733}
   - {fileID: 199470466}
   - {fileID: 1788013319}
   - {fileID: 487014989}

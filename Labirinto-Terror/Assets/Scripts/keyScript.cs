@@ -11,7 +11,6 @@ public class keyScript : MonoBehaviour
 			inticon.SetActive(true);
 			if(Input.GetKeyDown(KeyCode.E)){
 				key.SetActive(false);
-				DoorScript.keyfound = true;
 				inticon.SetActive(false);
 			}
 		}
