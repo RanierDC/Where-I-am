@@ -15,11 +15,11 @@ C:/Users/RANIERDALTONDOCOUTO/Documents/GitHub/Where-I-am/Labirinto-Terror
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52694
+60253
 Successfully changed project path to: C:/Users/RANIERDALTONDOCOUTO/Documents/GitHub/Where-I-am/Labirinto-Terror
 C:/Users/RANIERDALTONDOCOUTO/Documents/GitHub/Where-I-am/Labirinto-Terror
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001352 seconds.
+Registered in 0.002623 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.672 seconds
+- Completed reload, in  0.698 seconds
 Domain Reload Profiling:
-	ReloadAssembly (672ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (698ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (528ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (560ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
+			SetupTypeCache (184ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (203ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (200ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (46ms)
 				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadAttributes (101ms)
 				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,53 +75,53 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002603 seconds.
+Registered in 0.009329 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\RANIERDALTONDOCOUTO\Documents\GitHub\Where-I-am\Labirinto-Terror\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.205 seconds
+- Completed reload, in  1.182 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1206ms)
-		BeginReloadAssembly (190ms)
+	ReloadAssembly (1183ms)
+		BeginReloadAssembly (224ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (913ms)
-			LoadAssemblies (129ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (876ms)
+			LoadAssemblies (162ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
+			SetupTypeCache (312ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (363ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (306ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.9 MB.
+System memory in use before: 86.0 MB.
 System memory in use after: 86.0 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1986.
-Total: 3.371000 ms (FindLiveObjects: 0.169400 ms CreateObjectMapping: 0.054000 ms MarkObjects: 3.048800 ms  DeleteObjects: 0.097600 ms)
+Total: 3.899100 ms (FindLiveObjects: 0.192600 ms CreateObjectMapping: 0.095700 ms MarkObjects: 3.480900 ms  DeleteObjects: 0.128100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,193 +135,257 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Labirinto3.unity
-  artifactKey: Guid(5b83479325b681b4eae9bbeba8828111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Labirinto3.unity using Guid(5b83479325b681b4eae9bbeba8828111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcabded20bf04a0e040bb1a5268d323') in 0.011832 seconds 
+  path: Assets/Scenes/Labirinto2.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Labirinto2.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61dce1503f2a427c6802192befcde718') in 0.012084 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.800028 seconds.
-  path: Assets/Objetos/paredelabirinto3.fbx
-  artifactKey: Guid(83622df5555b87040a3df58a1bb2a942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/paredelabirinto3.fbx using Guid(83622df5555b87040a3df58a1bb2a942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81335340c73238b20846cc375afa4ef3') in 0.349658 seconds 
+  Time since last request: 12.114567 seconds.
+  path: Assets/Scenes/Cabana.unity
+  artifactKey: Guid(e7c7c64a745eea64590e1b080bfa2b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cabana.unity using Guid(e7c7c64a745eea64590e1b080bfa2b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec36db72cb82f21c41780756cfec1f3') in 0.006729 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001947 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\RANIERDALTONDOCOUTO\Documents\GitHub\Where-I-am\Labirinto-Terror\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Domain Reload Profiling:
+	ReloadAssembly (939ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (758ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1989.
+Total: 2.748000 ms (FindLiveObjects: 0.135900 ms CreateObjectMapping: 0.043500 ms MarkObjects: 2.550100 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002570 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\RANIERDALTONDOCOUTO\Documents\GitHub\Where-I-am\Labirinto-Terror\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (899ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (738ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 2.870300 ms (FindLiveObjects: 0.182900 ms CreateObjectMapping: 0.067200 ms MarkObjects: 2.592800 ms  DeleteObjects: 0.026400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.002738 seconds.
-  path: Assets/Objetos/paredelabirinto3.fbx
-  artifactKey: Guid(83622df5555b87040a3df58a1bb2a942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/paredelabirinto3.fbx using Guid(83622df5555b87040a3df58a1bb2a942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece2f4b6b7374a1a9259ef5498d88461') in 0.153085 seconds 
+  Time since last request: 741.468012 seconds.
+  path: Assets/Assets Store/BathroomPack
+  artifactKey: Guid(2a485672be8ec8f4393a95312ca12e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Store/BathroomPack using Guid(2a485672be8ec8f4393a95312ca12e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cbea7f2dafb353ecefb920110da54f') in 0.008011 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.566593 seconds.
-  path: Assets/Objetos/materials/paredelabirinto
-  artifactKey: Guid(403fc60ab81bfff4aa271e51d36770db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto using Guid(403fc60ab81bfff4aa271e51d36770db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042f97f82629f9ca93b0cd2581825996') in 0.010290 seconds 
+  Time since last request: 21.349697 seconds.
+  path: Assets/Scenes/Cabana.unity
+  artifactKey: Guid(e7c7c64a745eea64590e1b080bfa2b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cabana.unity using Guid(e7c7c64a745eea64590e1b080bfa2b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087dca4c38b50d25ac4f9a95a93dc187') in 0.001890 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.050374 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Material.014.mat
-  artifactKey: Guid(166117551d8df9f4587d5fb2bc237091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Material.014.mat using Guid(166117551d8df9f4587d5fb2bc237091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95698f87a2775410e50a1d0a731b6713') in 0.027487 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003199 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\RANIERDALTONDOCOUTO\Documents\GitHub\Where-I-am\Labirinto-Terror\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1128ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (924ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.9 MB.
+System memory in use after: 86.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1995.
+Total: 3.064200 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.050500 ms MarkObjects: 2.810600 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Material.022.mat
-  artifactKey: Guid(022652c35ebf7034594efb19037c1898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Material.022.mat using Guid(022652c35ebf7034594efb19037c1898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04a84a8168601c4bb7268962d37833b') in 0.018974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Material.015.mat
-  artifactKey: Guid(b71a36c3690a6ab49afb65c24e36a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Material.015.mat using Guid(b71a36c3690a6ab49afb65c24e36a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280b8ee7e2649c6eac6b4ba53156b10b') in 0.023938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Material.016.mat
-  artifactKey: Guid(ce15e529fcd9e0e4fa4dda8c02dc6d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Material.016.mat using Guid(ce15e529fcd9e0e4fa4dda8c02dc6d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d3ff236be0df8707089697385b45ac') in 0.026646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Material.020.mat
-  artifactKey: Guid(2f99c2a373c56c34a980237f8800c27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Material.020.mat using Guid(2f99c2a373c56c34a980237f8800c27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf22a30883fde626539f9faa88703cb') in 0.020093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000934 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Material.019.mat
-  artifactKey: Guid(a764a3a726b9f374d9b6fccd4a3754a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Material.019.mat using Guid(a764a3a726b9f374d9b6fccd4a3754a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e7e2154339c0f671a64ea459ea8034') in 0.028903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Material.017.mat
-  artifactKey: Guid(f32bde63da27e174eb8de97a72daff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Material.017.mat using Guid(f32bde63da27e174eb8de97a72daff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd742845792bf87eab59cd996f2257981') in 0.027488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Material.021.mat
-  artifactKey: Guid(c07c59b5e454b7147be9d3f58d801fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Material.021.mat using Guid(c07c59b5e454b7147be9d3f58d801fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1470ae68ca36baea333be8c50b1155ca') in 0.029357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Material.018.mat
-  artifactKey: Guid(c8d8fcb59de62f744b0673ac56f6c80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Material.018.mat using Guid(c8d8fcb59de62f744b0673ac56f6c80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9644ecfffd96f9d0696095d6e64f981e') in 0.026714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Material.023.mat
-  artifactKey: Guid(1cc2072a8c99ee6419d425bd715240d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Material.023.mat using Guid(1cc2072a8c99ee6419d425bd715240d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff97e4b76ff36aad79a8c2d3c9f02ae4') in 0.026464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.898176 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Tiles086_4K_Color.jpg
-  artifactKey: Guid(5a4e88fee0c359145b2d501031350a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Tiles086_4K_Color.jpg using Guid(5a4e88fee0c359145b2d501031350a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cebb9c2b7b9d1f53811e2e601e12f3d') in 0.051385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.343583 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Tiles086_4K_AmbientOcclusion.jpg
-  artifactKey: Guid(6fb059e08dcf2d943bf1b50190b0d63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Tiles086_4K_AmbientOcclusion.jpg using Guid(6fb059e08dcf2d943bf1b50190b0d63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84ffd500787ea1ef97732ca3d096412') in 0.021339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.489250 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Tiles086_4K_Displacement.jpg
-  artifactKey: Guid(1a6e0a4a5f6080141aebbd07c44f8685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Tiles086_4K_Displacement.jpg using Guid(1a6e0a4a5f6080141aebbd07c44f8685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a657b66a0059efcf75a2c46846e456') in 0.021411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.812742 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Tiles086_4K_NormalDX.jpg
-  artifactKey: Guid(c55f6b2a8833ac14b8762ad8fd907c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Tiles086_4K_NormalDX.jpg using Guid(c55f6b2a8833ac14b8762ad8fd907c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1f5569f9e31d5160a009d072e804b1') in 0.022156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.860431 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Tiles086_4K_Roughness.jpg
-  artifactKey: Guid(1840065fa3415064699056cab04dca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Tiles086_4K_Roughness.jpg using Guid(1840065fa3415064699056cab04dca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32170b4a43364b0f894f5d0acb281c4') in 0.022725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.249267 seconds.
-  path: Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Animated Door_Shed Door_nmap.tga
-  artifactKey: Guid(4d2b01e7c70a9ee4cb9e6e99d58024d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Animated Door_Shed Door_nmap.tga using Guid(4d2b01e7c70a9ee4cb9e6e99d58024d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5817d3cd302411e759da661927aea882') in 0.075840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Animated Door_Shed Door_specular.tga
-  artifactKey: Guid(91e2074de3a27a842802e2d0c07e2206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Animated Door_Shed Door_specular.tga using Guid(91e2074de3a27a842802e2d0c07e2206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f530336b5c2d6fa827cba27ad48cad') in 0.024480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.033041 seconds.
-  path: Assets/Assets Store/BathroomPack/Textures/Bathtub/Bathtub_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(e51d245cb17644248b94b9b82c2af31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Store/BathroomPack/Textures/Bathtub/Bathtub_DefaultMaterial_AlbedoTransparency.png using Guid(e51d245cb17644248b94b9b82c2af31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d7d2f11cca234eeec69ce2f3811c78') in 0.030811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Assets Store/BathroomPack/Textures/Bathtub/Bathtub_DefaultMaterial_MetallicSmoothness.png
-  artifactKey: Guid(f886843c723731b49bbffbf2e7d08747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Store/BathroomPack/Textures/Bathtub/Bathtub_DefaultMaterial_MetallicSmoothness.png using Guid(f886843c723731b49bbffbf2e7d08747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8af19bb834dcbace932477cdc0d6c2') in 0.034283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.211955 seconds.
-  path: Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Petite Echelle_color.tga
-  artifactKey: Guid(1a9ee8c6bb61adc40ab270fb5b3ec5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Petite Echelle_color.tga using Guid(1a9ee8c6bb61adc40ab270fb5b3ec5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b12fdf73dd125f6797db1760cfb949d') in 0.029076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Petite Echelle_nmap.tga
-  artifactKey: Guid(98b5baee2cc335c4a99c7a6b10973688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Petite Echelle_nmap.tga using Guid(98b5baee2cc335c4a99c7a6b10973688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c54f675b168d34f136f79a7accf31a4') in 0.033291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.266779 seconds.
-  path: Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Petite Echelle_specular.tga
-  artifactKey: Guid(df61803bd6d2d4646a9f654c5ffe0a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Petite Echelle_specular.tga using Guid(df61803bd6d2d4646a9f654c5ffe0a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a389ee9fa47b919ed9381d3a9d30d5b6') in 0.028886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.506308 seconds.
-  path: Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Tableau a Outils_Tableau Tools_nmap.tga
-  artifactKey: Guid(6e1d7108b768b7440837381723cde0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Tableau a Outils_Tableau Tools_nmap.tga using Guid(6e1d7108b768b7440837381723cde0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc089a394ba68e6d996717d78bd1c921') in 0.031199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Tableau a Outils_Tableau Tools_specular.tga
-  artifactKey: Guid(20ad53d421c0aab49b932fcb266e321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Tableau a Outils_Tableau Tools_specular.tga using Guid(20ad53d421c0aab49b932fcb266e321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d48b7d63e6ef05439a0d3efc6bb48f') in 0.032199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.221689 seconds.
-  path: Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Tableau_nmap.tga
-  artifactKey: Guid(a031f656d6af5e34c9419f4d8bbee904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Tableau_nmap.tga using Guid(a031f656d6af5e34c9419f4d8bbee904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b549e1e95612f2c6a553c4219cc0c895') in 0.039041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Tableau_specular.tga
-  artifactKey: Guid(282ae4aa82b74094d8c341fee15c2ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Store/BlackantMasterStudio/The Shed/Textures/Tableau_specular.tga using Guid(282ae4aa82b74094d8c341fee15c2ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef47fa9e7e9ad5269da15dcba08775b') in 0.025377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/Timeline-Marker-Multi-Overlay.png
-  artifactKey: Guid(75f26f1c549568c4e9950a368bd08cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/Timeline-Marker-Multi-Overlay.png using Guid(75f26f1c549568c4e9950a368bd08cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e34cf53a1d8d8dce211b757e9f8b83') in 0.021099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 339.810409 seconds.
-  path: Assets/Objetos/materials/paredelabirinto/Material.014.mat
-  artifactKey: Guid(166117551d8df9f4587d5fb2bc237091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/materials/paredelabirinto/Material.014.mat using Guid(166117551d8df9f4587d5fb2bc237091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6106ab1df75d57109a5123147e3c78e4') in 0.051246 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002273 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\RANIERDALTONDOCOUTO\Documents\GitHub\Where-I-am\Labirinto-Terror\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1579ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1335ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (571ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.9 MB.
+System memory in use after: 86.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1998.
+Total: 2.667300 ms (FindLiveObjects: 0.165000 ms CreateObjectMapping: 0.069100 ms MarkObjects: 2.411500 ms  DeleteObjects: 0.020800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
