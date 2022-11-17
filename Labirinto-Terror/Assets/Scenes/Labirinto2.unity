@@ -2708,7 +2708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 279890274}
-  speed: 4
+  speed: 5
   gravity: -4
   jumpHeight: 0
   groundCheck: {fileID: 461515706}
@@ -9524,7 +9524,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60.7
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -9582,7 +9582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a47ff060f2b8b694bb580082473f4520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 400
+  mouseSensitivity: 450
   playerBody: {fileID: 279890275}
 --- !u!1001 &974593559
 PrefabInstance:
