@@ -24,6 +24,7 @@ public class DoorScript : MonoBehaviour
                         intText.SetActive(false);
                         opened = true;
                         SceneManager.LoadScene("Proximo2");
+                        LiberarMouse();
                     }
                 }
                 if(locked == true){
@@ -55,5 +56,11 @@ public class DoorScript : MonoBehaviour
             
         }
     }
+
+    public void LiberarMouse()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
 
 }

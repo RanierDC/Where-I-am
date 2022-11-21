@@ -30,6 +30,7 @@ public class DoorScriptLab1 : MonoBehaviour
                         intText.SetActive(false);
                         opened = true;
                         SceneManager.LoadScene("Proximo1");
+                        LiberarMouse();
                     }
                 }
                 if (locked == true)
@@ -66,5 +67,10 @@ public class DoorScriptLab1 : MonoBehaviour
             locked = false;
 
         }
+    }
+
+    public void LiberarMouse()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
     }
 }
