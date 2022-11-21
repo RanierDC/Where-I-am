@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorScript : MonoBehaviour
 {
     public GameObject door_closed, door_opened, intText, lockedtext;
-    public AudioSource open, close;
     public bool opened, locked;
     public static bool keyfound;
 
@@ -22,9 +22,8 @@ public class DoorScript : MonoBehaviour
                         door_closed.SetActive(false);
                         door_opened.SetActive(true);
                         intText.SetActive(false);
-                        //open.Play();
-                        StartCoroutine(repeat());
                         opened = true;
+                        SceneManager.LoadScene("Proximo2");
                     }
                 }
                 if(locked == true){
@@ -53,6 +52,7 @@ public class DoorScript : MonoBehaviour
     void Update(){
         if(keyfound == true){
             locked = false;
+            
         }
     }
 
