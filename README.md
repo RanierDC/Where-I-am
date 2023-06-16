@@ -38,4 +38,4 @@ Este é um projeto de um jogo de terror desenvolvido por Ranier Dalton, um aluno
 Por se tratar de um projeto que faz parte de um trabalho escolar. Não estão sendo aceitas contribuições externas neste momento.
 
 ## Licença
-Este projeto está licenciado sob a MIT License. Você é livre para utilizar, modificar e distribuir este jogo, desde que mantenha os créditos e a licença original.
+Este projeto está licenciado sob a <a href="https://opensource.org/license/mit/">MIT License</a>. Você é livre para utilizar, modificar e distribuir este jogo, desde que mantenha os créditos e a licença original.
